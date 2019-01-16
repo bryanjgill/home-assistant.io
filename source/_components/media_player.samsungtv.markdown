@@ -110,6 +110,7 @@ Currently tested but not working models:
 - JU7000 - Unable to see state and unable to control (but port 8001 *is* open)
 - JU7500 - Unable to see state and unable to control
 - MU6300 - Port set to 8001, `pip3 install websocket-client` must be executed, turning on works, status not working reliably, turning off is not permanent (it comes back on)
+- NU7300 - State tracking working but unable to control (but port 8001 *is* open)
 
 None of the 2014 (H) and 2015 (J) model series (e.g., J5200) will work,
 since Samsung have used a different (encrypted) type of interface for these.
